@@ -1,0 +1,35 @@
+.menu-container {
+    position: absolute;
+    transform: translateX(-80%);
+    height: 220px;
+    width: 150px;
+    background-color: rgb(128, 128, 128);
+    cursor: pointer;
+    transition: all 250ms ease-in-out;
+}
+.menu-container:hover {
+    transform: translateX(0%);
+}
+.menu-container:hover .side-title {
+    opacity: 0;
+}
+.side-title {
+    position: absolute;
+    right: -60px;
+    top: 45%;
+    transform: rotate(90deg);
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.side-menu-list {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.side-menu-item {
+    color: white;
+    padding-bottom: 10px;
+}
+.side-menu-item:hover {
+    color: goldenrod;
+}
